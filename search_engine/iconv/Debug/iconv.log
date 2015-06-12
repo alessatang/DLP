@@ -1,12 +1,52 @@
-﻿Build started 6/12/2015 2:02:27 PM.
-     1>Project "J:\Study\search_engine\iconv\iconv.vcxproj" on node 2 (Build target(s)).
-     1>Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"J:\Study\search_engine\\Output\Bin.iru\iconv.lib" /NOLOGO Debug\iconv.obj
+﻿Build started 6/12/2015 5:01:52 PM.
+     1>Project "J:\Study\Agent\search_engine\iconv\iconv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c localcharset.c relocatable.c
+         relocatable.c
+         localcharset.c
+     1>j:\study\agent\search_engine\iconv\localcharset.c(468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         iconv.c
+     1>j:\study\agent\search_engine\iconv\include\utf7.h(162): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\utf7.h(331): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\hz.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\hz.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\hz.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\hz.h(65): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\hz.h(80): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(50): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(94): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(145): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(261): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(421): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(425): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(506): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\include\loop_unicode.h(522): warning C4018: '<=' : signed/unsigned mismatch
+     1>j:\study\agent\search_engine\iconv\iconv.c(219): warning C4273: 'libiconv_open' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(90) : see previous definition of 'libiconv_open'
+     1>j:\study\agent\search_engine\iconv\iconv.c(252): warning C4273: 'libiconv' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(102) : see previous definition of 'libiconv'
+     1>j:\study\agent\search_engine\iconv\iconv.c(263): warning C4273: 'libiconv_close' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(108) : see previous definition of 'libiconv_close'
+     1>j:\study\agent\search_engine\iconv\iconv.c(284): warning C4273: 'libiconv_open_into' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(153) : see previous definition of 'libiconv_open_into'
+     1>j:\study\agent\search_engine\iconv\iconv.c(306): warning C4273: 'libiconvctl' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(158) : see previous definition of 'libiconvctl'
+     1>j:\study\agent\search_engine\iconv\iconv.c(381): warning C4273: 'libiconvlist' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(239) : see previous definition of 'libiconvlist'
+     1>j:\study\agent\search_engine\iconv\iconv.c(430): warning C4090: 'function' : different 'const' qualifiers
+     1>j:\study\agent\search_engine\iconv\iconv.c(491): warning C4273: 'iconv_canonicalize' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(246) : see previous definition of 'iconv_canonicalize'
+     1>j:\study\agent\search_engine\iconv\iconv.c(597): warning C4273: '_libiconv_version' : inconsistent dll linkage
+                 j:\study\agent\search_engine\iconv\include\iconv.h(40) : see previous definition of '_libiconv_version'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"J:\Study\Agent\search_engine\\Output\Bin.iru\iconv.lib" /NOLOGO Debug\iconv.obj
          Debug\localcharset.obj
          Debug\relocatable.obj
-         iconv.vcxproj -> J:\Study\search_engine\\Output\Bin.iru\iconv.lib
-     1>Done Building Project "J:\Study\search_engine\iconv\iconv.vcxproj" (Build target(s)).
+         iconv.vcxproj -> J:\Study\Agent\search_engine\\Output\Bin.iru\iconv.lib
+     1>Done Building Project "J:\Study\Agent\search_engine\iconv\iconv.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.17
+Time Elapsed 00:00:01.42

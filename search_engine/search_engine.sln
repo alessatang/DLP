@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iconv", "iconv\iconv.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxml2", "libxml2\libxml2.vcxproj", "{BD288B27-EBF2-4485-B309-670EB982D4EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doctotext", "doctotext\doctotext.vcxproj", "{4E748A47-E945-4A79-A7CA-29A26EB139DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{BD288B27-EBF2-4485-B309-670EB982D4EF}.Debug|Win32.Build.0 = Debug|Win32
 		{BD288B27-EBF2-4485-B309-670EB982D4EF}.Release|Win32.ActiveCfg = Release|Win32
 		{BD288B27-EBF2-4485-B309-670EB982D4EF}.Release|Win32.Build.0 = Release|Win32
+		{4E748A47-E945-4A79-A7CA-29A26EB139DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E748A47-E945-4A79-A7CA-29A26EB139DC}.Debug|Win32.Build.0 = Debug|Win32
+		{4E748A47-E945-4A79-A7CA-29A26EB139DC}.Release|Win32.ActiveCfg = Release|Win32
+		{4E748A47-E945-4A79-A7CA-29A26EB139DC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

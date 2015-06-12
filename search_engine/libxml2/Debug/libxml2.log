@@ -1,57 +1,9 @@
-﻿Build started 6/12/2015 2:03:19 PM.
-     1>Project "J:\Study\search_engine\libxml2\libxml2.vcxproj" on node 2 (Build target(s)).
+﻿Build started 6/12/2015 5:02:30 PM.
+     1>Project "J:\Study\Agent\search_engine\libxml2\libxml2.vcxproj" on node 2 (Build target(s)).
      1>Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"J:\Study\search_engine\\Output\Bin.idu\libxml2.lib" /NOLOGO Debug\buf.obj
-         Debug\c14n.obj
-         Debug\catalog.obj
-         Debug\chvalid.obj
-         Debug\debugXML.obj
-         Debug\dict.obj
-         Debug\DOCBparser.obj
-         Debug\encoding.obj
-         Debug\entities.obj
-         Debug\error.obj
-         Debug\globals.obj
-         Debug\hash.obj
-         Debug\HTMLparser.obj
-         Debug\HTMLtree.obj
-         Debug\legacy.obj
-         Debug\list.obj
-         Debug\nanoftp.obj
-         Debug\nanohttp.obj
-         Debug\parser.obj
-         Debug\parserInternals.obj
-         Debug\pattern.obj
-         Debug\relaxng.obj
-         Debug\SAX.obj
-         Debug\SAX2.obj
-         Debug\schematron.obj
-         Debug\threads.obj
-         Debug\tree.obj
-         Debug\trionan.obj
-         Debug\uri.obj
-         Debug\valid.obj
-         Debug\xinclude.obj
-         Debug\xlink.obj
-         Debug\xmlcatalog.obj
-         Debug\xmlIO.obj
-         Debug\xmllint.obj
-         Debug\xmlmemory.obj
-         Debug\xmlmodule.obj
-         Debug\xmlreader.obj
-         Debug\xmlregexp.obj
-         Debug\xmlsave.obj
-         Debug\xmlschemas.obj
-         Debug\xmlschemastypes.obj
-         Debug\xmlstring.obj
-         Debug\xmlunicode.obj
-         Debug\xmlwriter.obj
-         Debug\xpath.obj
-         Debug\xpointer.obj
-     1>xmlcatalog.obj : warning LNK4006: _main already defined in xmllint.obj; second definition ignored
-         libxml2.vcxproj -> J:\Study\search_engine\\Output\Bin.idu\libxml2.lib
-     1>Done Building Project "J:\Study\search_engine\libxml2\libxml2.vcxproj" (Build target(s)).
+         libxml2.vcxproj -> J:\Study\Agent\search_engine\\Output\Bin.idu\libxml2.lib
+     1>Done Building Project "J:\Study\Agent\search_engine\libxml2\libxml2.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.48
+Time Elapsed 00:00:00.11
