@@ -1,0 +1,12 @@
+﻿Build started 6/12/2015 2:02:27 PM.
+     1>Project "J:\Study\search_engine\iconv\iconv.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"J:\Study\search_engine\\Output\Bin.iru\iconv.lib" /NOLOGO Debug\iconv.obj
+         Debug\localcharset.obj
+         Debug\relocatable.obj
+         iconv.vcxproj -> J:\Study\search_engine\\Output\Bin.iru\iconv.lib
+     1>Done Building Project "J:\Study\search_engine\iconv\iconv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17
