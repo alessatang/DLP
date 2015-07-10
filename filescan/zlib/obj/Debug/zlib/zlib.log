@@ -1,0 +1,34 @@
+﻿Build started 6/29/2015 1:10:24 PM.
+     1>Project "I:\Study\filescan\zlib\zlib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D _WIN32 /D WIN32 /D WINDOWS /D _CRT_SECURE_NO_WARNINGS_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\zlib\\" /Fd"obj\Debug\zlib\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\dbg\zlib.lib" /NOLOGO obj\Debug\zlib\adler32.obj
+         obj\Debug\zlib\compress.obj
+         obj\Debug\zlib\crc32.obj
+         obj\Debug\zlib\deflate.obj
+         obj\Debug\zlib\infback.obj
+         obj\Debug\zlib\inffast.obj
+         obj\Debug\zlib\inflate.obj
+         obj\Debug\zlib\inftrees.obj
+         obj\Debug\zlib\trees.obj
+         obj\Debug\zlib\uncompr.obj
+         obj\Debug\zlib\zutil.obj
+         zlib.vcxproj -> I:\Study\filescan\zlib\..\dbg\zlib.lib
+     1>Done Building Project "I:\Study\filescan\zlib\zlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

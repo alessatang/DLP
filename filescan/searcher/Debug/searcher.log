@@ -1,0 +1,33 @@
+﻿Build started 7/10/2015 3:35:11 PM.
+     1>Project "I:\Study\filescan\searcher\searcher.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\pcre /I.\ /I..\doctotext /I..\pthread /I..\zlib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D PCRE_STATIC /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SEARCHER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt decompress.c ignore.c log.c print_w32.c searcher.c util.c
+         decompress.c
+         ignore.c
+     1>i:\study\filescan\searcher\ignore.c(341): warning C4029: declared formal parameter list different from definition
+         log.c
+         print_w32.c
+         searcher.c
+     1>i:\study\filescan\searcher\searcher.c(237): warning C4013: 'convert_to_text' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(276): error C2065: 'alpha_skip_lookup' : undeclared identifier
+     1>i:\study\filescan\searcher\searcher.c(276): warning C4047: 'function' : 'const size_t *' differs in levels of indirection from 'int'
+     1>i:\study\filescan\searcher\searcher.c(276): warning C4024: 'ag_strnstr_fp' : different types for formal and actual parameter 5
+     1>i:\study\filescan\searcher\searcher.c(276): error C2065: 'find_skip_lookup' : undeclared identifier
+     1>i:\study\filescan\searcher\searcher.c(276): warning C4024: 'ag_strnstr_fp' : different types for formal and actual parameter 6
+     1>i:\study\filescan\searcher\searcher.c(322): error C2181: illegal else without matching if
+     1>i:\study\filescan\searcher\searcher.c(357): warning C4013: 'pthread_mutex_lock' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(357): error C2065: 'stats_mtx' : undeclared identifier
+     1>i:\study\filescan\searcher\searcher.c(361): warning C4013: 'pthread_mutex_unlock' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(361): error C2065: 'stats_mtx' : undeclared identifier
+     1>i:\study\filescan\searcher\searcher.c(368): error C2065: 'print_mtx' : undeclared identifier
+     1>i:\study\filescan\searcher\searcher.c(379): warning C4013: 'print_path_count' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(382): warning C4013: 'print_path' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(387): warning C4013: 'print_file_matches' undefined; assuming extern returning int
+     1>i:\study\filescan\searcher\searcher.c(389): error C2065: 'print_mtx' : undeclared identifier
+         util.c
+         Generating Code...
+     1>Done Building Project "I:\Study\filescan\searcher\searcher.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.17

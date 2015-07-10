@@ -1,0 +1,34 @@
+﻿Build started 7/10/2015 3:08:35 PM.
+     1>Project "I:\Study\filescan\filescan\filescan.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt binarytotext.c decompress.c ignore.c lang.c log.c main.c options.c print.c print_w32.c scandir.c search.c util.c
+         util.c
+     1>i:\study\filescan\filescan\util.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         search.c
+     1>i:\study\filescan\filescan\search.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         scandir.c
+     1>i:\study\filescan\filescan\scandir.c(1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         print_w32.c
+     1>i:\study\filescan\filescan\util.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         print.c
+     1>i:\study\filescan\filescan\ignore.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         options.c
+     1>i:\study\filescan\filescan\options.c(11): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         main.c
+     1>i:\study\filescan\filescan\main.c(1): fatal error C1083: Cannot open include file: 'pcre.h': No such file or directory
+         log.c
+     1>i:\study\filescan\filescan\util.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         lang.c
+     1>i:\study\filescan\filescan\util.h(4): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         ignore.c
+     1>i:\study\filescan\filescan\ignore.c(2): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+         decompress.c
+     1>i:\study\filescan\filescan\decompress.c(2): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory
+         binarytotext.c
+     1>i:\study\filescan\filescan\binarytotext.h(1): fatal error C1083: Cannot open include file: 'doctotext_c_api.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "I:\Study\filescan\filescan\filescan.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.77

@@ -1,0 +1,50 @@
+﻿Build started 7/10/2015 4:03:54 PM.
+     1>Project "I:\Study\filescan\filescan\filescan.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\zlib /I..\pcre /I..\pthread /I..\doctotext /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _DEBUG /D DEBUG /D _WIN32 /D WIN32 /D WINDOWS /D _CRT_SECURE_NO_WARNINGS /D PCRE_STATIC /D _UNICODE /D UNICODE /Gm- /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"obj\Debug\filescan\\" /Fd"obj\Debug\filescan\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /wd4800 /wd4127 /wd4100 /wd4244 /TP binarytotext.c decompress.c dirent.c getopt.c ignore.c lang.c log.c main.c options.c print.c print_w32.c scandir.c search.c unistd.c util.c
+     1>cl : Command line warning D9025: overriding '/TC' with '/TP'
+         binarytotext.c
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         decompress.c
+         dirent.c
+         getopt.c
+         ignore.c
+         lang.c
+         log.c
+         main.c
+         options.c
+         print.c
+         print_w32.c
+         scandir.c
+         search.c
+         unistd.c
+         util.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\zlib /I..\pcre /I..\pthread /I..\doctotext /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _DEBUG /D DEBUG /D _WIN32 /D WIN32 /D WINDOWS /D _CRT_SECURE_NO_WARNINGS /D PCRE_STATIC /D _UNICODE /D UNICODE /Gm- /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"obj\Debug\filescan\\" /Fd"obj\Debug\filescan\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4800 /wd4127 /wd4100 /wd4244 /TP kjk_crash_handler.cpp
+         kjk_crash_handler.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\dbg\filescan.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\doctotext Shlwapi.lib libdoctotext.a ..\dbg\pcre.lib ..\dbg\pthread.lib ..\dbg\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\dbg\filescan.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\dbg\filescan.lib" /MACHINE:X86 obj\Debug\filescan\binarytotext.obj
+         obj\Debug\filescan\decompress.obj
+         obj\Debug\filescan\dirent.obj
+         obj\Debug\filescan\getopt.obj
+         obj\Debug\filescan\ignore.obj
+         obj\Debug\filescan\kjk_crash_handler.obj
+         obj\Debug\filescan\lang.obj
+         obj\Debug\filescan\log.obj
+         obj\Debug\filescan\main.obj
+         obj\Debug\filescan\options.obj
+         obj\Debug\filescan\print.obj
+         obj\Debug\filescan\print_w32.obj
+         obj\Debug\filescan\scandir.obj
+         obj\Debug\filescan\search.obj
+         obj\Debug\filescan\unistd.obj
+         obj\Debug\filescan\util.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         filescan.vcxproj -> I:\Study\filescan\filescan\..\dbg\filescan.exe
+     1>Done Building Project "I:\Study\filescan\filescan\filescan.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.63

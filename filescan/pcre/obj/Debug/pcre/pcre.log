@@ -1,0 +1,61 @@
+﻿Build started 6/29/2015 1:10:11 PM.
+     1>Project "I:\Study\filescan\pcre\pcre.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IJ:\Study\searcher\pcre /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D _WIN32 /D WIN32 /D WINDOWS /D _CRT_SECURE_NO_WARNINGS /D HAVE_CONFIG_H /D _LIB /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"obj\Debug\pcre\\" /Fd"obj\Debug\pcre\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /wd4800 /wd4127 /wd4100 /wd4244 pcre32_xclass.c pcre_byte_order.c pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_jit_compile.c pcre_maketables.c pcre_newline.c pcre_ord2utf8.c pcre_refcount.c pcre_string_utils.c pcre_study.c pcre_tables.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c
+         pcre32_xclass.c
+         pcre_byte_order.c
+         pcre_chartables.c
+         pcre_compile.c
+     1>i:\study\filescan\pcre\pcre_compile.c(850): warning C4018: '>' : signed/unsigned mismatch
+     1>i:\study\filescan\pcre\pcre_compile.c(1088): warning C4018: '>' : signed/unsigned mismatch
+         pcre_config.c
+         pcre_dfa_exec.c
+     1>i:\study\filescan\pcre\pcre_dfa_exec.c(1708): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>i:\study\filescan\pcre\pcre_dfa_exec.c(1752): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>i:\study\filescan\pcre\pcre_dfa_exec.c(1793): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         pcre_exec.c
+         pcre_fullinfo.c
+         pcre_get.c
+         pcre_globals.c
+         pcre_jit_compile.c
+         pcre_maketables.c
+         pcre_newline.c
+         pcre_ord2utf8.c
+         pcre_refcount.c
+         pcre_string_utils.c
+         pcre_study.c
+         pcre_tables.c
+         pcre_ucd.c
+         pcre_valid_utf8.c
+         Generating Code...
+         Compiling...
+         pcre_version.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\dbg\pcre.lib" /NOLOGO obj\Debug\pcre\pcre32_xclass.obj
+         obj\Debug\pcre\pcre_byte_order.obj
+         obj\Debug\pcre\pcre_chartables.obj
+         obj\Debug\pcre\pcre_compile.obj
+         obj\Debug\pcre\pcre_config.obj
+         obj\Debug\pcre\pcre_dfa_exec.obj
+         obj\Debug\pcre\pcre_exec.obj
+         obj\Debug\pcre\pcre_fullinfo.obj
+         obj\Debug\pcre\pcre_get.obj
+         obj\Debug\pcre\pcre_globals.obj
+         obj\Debug\pcre\pcre_jit_compile.obj
+         obj\Debug\pcre\pcre_maketables.obj
+         obj\Debug\pcre\pcre_newline.obj
+         obj\Debug\pcre\pcre_ord2utf8.obj
+         obj\Debug\pcre\pcre_refcount.obj
+         obj\Debug\pcre\pcre_string_utils.obj
+         obj\Debug\pcre\pcre_study.obj
+         obj\Debug\pcre\pcre_tables.obj
+         obj\Debug\pcre\pcre_ucd.obj
+         obj\Debug\pcre\pcre_valid_utf8.obj
+         obj\Debug\pcre\pcre_version.obj
+         pcre.vcxproj -> I:\Study\filescan\pcre\..\dbg\pcre.lib
+     1>Done Building Project "I:\Study\filescan\pcre\pcre.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55

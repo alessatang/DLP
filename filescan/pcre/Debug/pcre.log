@@ -1,0 +1,76 @@
+﻿Build started 6/25/2015 3:31:59 PM.
+     1>Project "J:\Study\searcher\pcre\pcre.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /wd4800 /wd4127 /wd4100 /wd4244 pcre32_xclass.c pcre_byte_order.c pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_jit_compile.c pcre_maketables.c pcre_newline.c pcre_ord2utf8.c pcre_refcount.c pcre_string_utils.c pcre_study.c pcre_tables.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c
+         pcre32_xclass.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+         pcre_byte_order.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_chartables.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_compile.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_config.c
+     1>j:\study\searcher\pcre\pcre_config.c(49): error C2065: 'LINK_SIZE' : undeclared identifier
+     1>j:\study\searcher\pcre\pcre_config.c(49): error C2099: initializer is not a constant
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_dfa_exec.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_exec.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_fullinfo.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_get.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_globals.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_jit_compile.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_maketables.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_newline.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_ord2utf8.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_refcount.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_string_utils.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_study.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_tables.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_ucd.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         pcre_valid_utf8.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         Generating Code...
+         Compiling...
+         pcre_version.c
+     1>j:\study\searcher\pcre\pcre_internal.h(150): error C2007: #define syntax
+     1>j:\study\searcher\pcre\pcre_internal.h(464): fatal error C1189: #error :  LINK_SIZE must be either 2, 3, or 4
+         Generating Code...
+     1>Done Building Project "J:\Study\searcher\pcre\pcre.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.30
